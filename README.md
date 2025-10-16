@@ -4,12 +4,10 @@ Este repositório demonstra um **modelo de previsão simples com Prophet** aplic
 
 ## Estrutura:
 simple_prophet_forecast/
-│
-├── data/          # Dados brutos utilizados no projeto
-│
-├── notebooks/     # Notebook principal com o passo a passo da análise e previsão
-│
-└── src/           # Scripts modulares (pré-processamento, métricas, etc.)
+    data/         -> dados brutos
+    notebooks/    -> notebook principal com o passo a passo
+    src/          -> scripts modulares (pré-processamento e métricas)
+
 
 
 ##  Como Rodar
