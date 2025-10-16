@@ -1,24 +1,17 @@
 #  Coffee Sales Forecast (Prophet Baseline)
 
-Este repositório demonstra um **modelo de previsão simples com Prophet** aplicado à série temporal de vendas de café.
+O modelo foi treinado utilizando o Facebook Prophet para previsão de séries temporais.
 
-## Estrutura:
-simple_prophet_forecast/
-    data/         -> dados brutos
-    notebooks/    -> notebook principal com o passo a passo
-    src/          -> scripts modulares (pré-processamento e métricas)
+Métricas de desempenho no conjunto de teste:
 
+MAE: 255.65
 
+RMSE: 286.11
 
+R²: 0.242
 
-
-
-
-
-
-
-
-
+Esses valores indicam que o modelo possui um erro médio de aproximadamente 255 unidades e explica cerca de 24% da variabilidade dos dados observados.
+Futuros ajustes de hiperparâmetros e tratamento de outliers podem melhorar o desempenho.
 
 
 ##  Como Rodar
